@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="public/imagenes/icon.png">
+    <title>Batalla Naval</title>
+</head>
+
+<body>
+    <h1>El juego que nos perseguira hasta terminar la carrera</h1>
+    <h3>Bienvenidos a Battlefield, ah no BATTLESHIP</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="board">
+                </div>
+            </div>
+            <div class="col">
+                <div id="boardAttack">
+                </div>
+            </div>
+        </div>
+        <h4>Barcos disponibles <br> Selecciona alguno</h4>
+        <div id="ships" class="row">
+            <div class="col">
+                <div>
+                    <span>El Titanic</span></br>
+                    <span>Tamaño: 3</span></br>
+                    <span>Cantidad: 1</span>
+                </div>
+                <div class="position"></div>
+            </div>
+            <div class="col">
+                <div>
+                    <span>La niña y la pinta</span></br>
+                    <span>Tamaño: 2</span></br>
+                    <span>Cantidad: 2</span>
+                </div>
+                <div class="position"></div>
+            </div>
+            <div class="col">
+                <div>
+                    <span>Un submarino</span></br>
+                    <span>Tamaño: 3</span></br>
+                    <span>Cantidad: 1</span>
+                </div>
+                <div class="position"></div>
+            </div>
+        </div>
+        <div class="row">
+            <button id="button" onclick="startGame()">Empezar juego</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+    <audio controls>
+        <source src="public/mp3/Faint.mp3">
+    </audio>
+</body>
+
+<footer>
+
+    <!-- Iconos de facebook, instagram, twitter, youtube y github -->
+    <center>
+        <a href="https://www.facebook.com/kevin.aldahir.1485/"><img src="public/imagenes/fbicon.png" alt="Facebook"
+                width="50" height="50"></a>
+        <a href="https://www.instagram.com/_kevin_aldahir/"><img src="public/imagenes/igicon.png" alt="Instagram"
+                width="50" height="50"></a>
+        <a href="https://twitter.com/_kevinWz"><img src="public/imagenes/twicon.png" alt="Twitter" width="50"
+                height="50"></a>
+        <a href="https://www.youtube.com/channel/UClLSoj9cOHI7uYcZeQHH7FA"><img src="public/imagenes/yticon.png"
+                alt="Youtube" width="50" height="50"></a>
+        <a href="https://github.com/KevinWze"><img src="public/imagenes/giticon.png" alt="Github" width="50"
+                height="50"></a>
+    </center>
+</footer>
+
+</html>
